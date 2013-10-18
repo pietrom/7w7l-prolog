@@ -25,6 +25,6 @@ sister(X,Y) :-
 	sibling(X,Y),
 	female(X).
 
-taunte(X,Y) :-
+aunt(X,Y) :-
 	sister(X,Z),
 	parent(Z,Y).
